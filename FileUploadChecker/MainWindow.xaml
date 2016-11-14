@@ -1,0 +1,13 @@
+﻿<Window x:Class="FolderMonitor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Monitoring tool" Height="144.03" Width="338.433" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <StackPanel Orientation="Vertical">
+        <TextBlock Name="tbInfo" Foreground="Gray"></TextBlock>
+        <StackPanel  Orientation="Horizontal" Margin="0,39,0,0">
+            <Button Content="Start monitoring" HorizontalAlignment="Left"   VerticalAlignment="Center" Width="111" Height="32" x:Name="btnStart" Margin="40,0,0,0" Click="btnStart_Click"/>
+            <Button Content="Stop monitoring" HorizontalAlignment="Right"  VerticalAlignment="Center" Width="111" Height="32" x:Name="btnStop" Margin="30,0,0,0" Click="btnStop_Click"/>
+
+        </StackPanel>
+    </StackPanel>
+</Window>

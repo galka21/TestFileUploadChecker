@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderMonitor.UI", "FileUploadChecker\FolderMonitor.UI.csproj", "{EADB1784-2BCF-4D12-8E19-4A8948586D4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLFileLoader", "XMLFileLoader\XMLFileLoader.csproj", "{FE1373EF-6143-4F56-9860-0DCF9D3B3E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVFileLoader", "CSVFileLoader\CSVFileLoader.csproj", "{C8FB8297-90E5-422D-A8DE-99CD937A58E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FolderMonitor", "FolderMonitor", "{259CFB13-93B1-4081-86B3-48A1DAB0EDD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderMonitor.Common", "FileUploadChecker.Common\FolderMonitor.Common.csproj", "{C6166601-A144-4E6E-9415-BE6F1279B2C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileLoader", "FileLoader", "{A6FD06AA-B96C-484A-9B3B-067ABC8A01CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TXTFileLoader", "TXTFileLoader\TXTFileLoader.csproj", "{647110A3-97BC-434D-B85D-5A99866B450A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EADB1784-2BCF-4D12-8E19-4A8948586D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADB1784-2BCF-4D12-8E19-4A8948586D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADB1784-2BCF-4D12-8E19-4A8948586D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADB1784-2BCF-4D12-8E19-4A8948586D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1373EF-6143-4F56-9860-0DCF9D3B3E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1373EF-6143-4F56-9860-0DCF9D3B3E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1373EF-6143-4F56-9860-0DCF9D3B3E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1373EF-6143-4F56-9860-0DCF9D3B3E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FB8297-90E5-422D-A8DE-99CD937A58E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FB8297-90E5-422D-A8DE-99CD937A58E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FB8297-90E5-422D-A8DE-99CD937A58E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FB8297-90E5-422D-A8DE-99CD937A58E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6166601-A144-4E6E-9415-BE6F1279B2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6166601-A144-4E6E-9415-BE6F1279B2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6166601-A144-4E6E-9415-BE6F1279B2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6166601-A144-4E6E-9415-BE6F1279B2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647110A3-97BC-434D-B85D-5A99866B450A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647110A3-97BC-434D-B85D-5A99866B450A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647110A3-97BC-434D-B85D-5A99866B450A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647110A3-97BC-434D-B85D-5A99866B450A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EADB1784-2BCF-4D12-8E19-4A8948586D4A} = {259CFB13-93B1-4081-86B3-48A1DAB0EDD2}
+		{C6166601-A144-4E6E-9415-BE6F1279B2C0} = {259CFB13-93B1-4081-86B3-48A1DAB0EDD2}
+		{C8FB8297-90E5-422D-A8DE-99CD937A58E5} = {A6FD06AA-B96C-484A-9B3B-067ABC8A01CA}
+		{FE1373EF-6143-4F56-9860-0DCF9D3B3E95} = {A6FD06AA-B96C-484A-9B3B-067ABC8A01CA}
+		{647110A3-97BC-434D-B85D-5A99866B450A} = {A6FD06AA-B96C-484A-9B3B-067ABC8A01CA}
+	EndGlobalSection
+EndGlobal
